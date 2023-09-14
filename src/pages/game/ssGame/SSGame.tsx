@@ -731,14 +731,14 @@ function SSGame(props) {
       scoringDataResult = scoringData(trialNumber, spanMultiplier, score);
       metricDataResult = metricData(trialNumber, summaryCorrect, spanInCorrectAns, enterStruggleTimeCount);
       postEntryResult = postEntry(trialDataResult, gameLogicSchemeResult, scoringDataResult, metricDataResult);
-      axios.post('https://hwsrv-1063269.hostwindsdns.com/exercise-api-hard/spatial-span', postEntryResult)
+      axios.post('https://hwsrv-1063269.hostwindsdns.com/exercise-api-validate/spatial-span', postEntryResult)
             .then(function (postEntryResult) {
                 console.log(postEntryResult)
             })
             .catch(function (error) {
                 console.log('error')
             });
-      saveJSONDataToClientDevice(postEntryResult, `Subject${props.userId}_spatialspan_hard_session${props.userSession}_${thisTime().toString()}`);
+      saveJSONDataToClientDevice(postEntryResult, `Subject${props.userId}_spatialspan_validate_session${props.userSession}_${thisTime().toString()}`);
   }
 
   function cueData(currSeq: string | any[], cueColor: string, cueBorderColor: string, cueStartTime: any[], cueEndTime: any[]){
