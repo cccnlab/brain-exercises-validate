@@ -1183,7 +1183,7 @@ function CJSGame(props): any {
             .catch(function (error) {
                 console.log('error')
             });
-        saveJSONDataToClientDevice(postEntryResult, `Subject${props.userId}_visualsearch_hard_session${props.userSession}_${thisTime().toString()}`);
+        saveJSONDataToClientDevice(postEntryResult, `Subject${props.userId}_visualsearch_validate_session${props.userSession}_${thisTime().toString()}`);
     }
 
     function scoringData(rtBound, incorrectMultiplier, lateMultiplier, scoresMultiplier, trialNumber, total){

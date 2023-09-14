@@ -600,7 +600,7 @@ function GNGGame(props) {
             .catch(function (error) {
                 console.log('error')
             });
-        saveJSONDataToClientDevice(postEntryResult, `Subject${props.userId}_gonogo_hard_session${props.userSession}_${thisTime().toString()}`);
+        saveJSONDataToClientDevice(postEntryResult, `Subject${props.userId}_gonogo_validate_session${props.userSession}_${thisTime().toString()}`);
     }
 
     function touchStart() {
