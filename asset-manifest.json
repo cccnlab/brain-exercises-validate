@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/brain-exercises-validate/static/css/main.9d88b98f.css",
-    "main.js": "/brain-exercises-validate/static/js/main.1d40a305.js",
-    "static/js/845.a80e4097.chunk.js": "/brain-exercises-validate/static/js/845.a80e4097.chunk.js",
-    "static/js/787.3f2bc347.chunk.js": "/brain-exercises-validate/static/js/787.3f2bc347.chunk.js",
+    "main.js": "/brain-exercises-validate/static/js/main.8d528306.js",
+    "static/js/845.4247771c.chunk.js": "/brain-exercises-validate/static/js/845.4247771c.chunk.js",
+    "static/js/787.9a822843.chunk.js": "/brain-exercises-validate/static/js/787.9a822843.chunk.js",
     "static/media/combo1.mp3": "/brain-exercises-validate/static/media/combo1.1bc6ea7eed39c4f2c3b8.mp3",
     "static/media/combo2.mp3": "/brain-exercises-validate/static/media/combo2.dc4a26f58622d3a5a4c0.mp3",
     "static/media/gonogo-img.png": "/brain-exercises-validate/static/media/gonogo-img.08938eb2418f1fbc937f.png",
@@ -18,12 +18,12 @@
     "static/media/rotate-phone.svg": "/brain-exercises-validate/static/media/rotate-phone.6172f756fbd62559e2be4c10385ec685.svg",
     "index.html": "/brain-exercises-validate/index.html",
     "main.9d88b98f.css.map": "/brain-exercises-validate/static/css/main.9d88b98f.css.map",
-    "main.1d40a305.js.map": "/brain-exercises-validate/static/js/main.1d40a305.js.map",
-    "845.a80e4097.chunk.js.map": "/brain-exercises-validate/static/js/845.a80e4097.chunk.js.map",
-    "787.3f2bc347.chunk.js.map": "/brain-exercises-validate/static/js/787.3f2bc347.chunk.js.map"
+    "main.8d528306.js.map": "/brain-exercises-validate/static/js/main.8d528306.js.map",
+    "845.4247771c.chunk.js.map": "/brain-exercises-validate/static/js/845.4247771c.chunk.js.map",
+    "787.9a822843.chunk.js.map": "/brain-exercises-validate/static/js/787.9a822843.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d88b98f.css",
-    "static/js/main.1d40a305.js"
+    "static/js/main.8d528306.js"
   ]
 }
