@@ -593,7 +593,7 @@ function GNGGame(props) {
         scoringDataResult = scoringData(rtBound, trialNumber, score);
         metricDataResult = metricData(hitCount, missCount, correctRejectionCount, falseAlarmCount, falseSignalRejectionCount, falseHitCount, hitRt, avgHitRt, avgFalseHitRt);
         postEntryResult = postEntry(cueDataResult, userInteractionDataResult, gameLogicSchemeResult, scoringDataResult, metricDataResult);
-        axios.post('https://hwsrv-1063269.hostwindsdns.com/exercise-api-validate/go-nogo', postEntryResult)
+        axios.post('https://exercise-vercel-svelte-backend.vercel.app/api/validate/gonogo', postEntryResult)
             .then(function (postEntryResult) {
                 console.log(postEntryResult)
             })
